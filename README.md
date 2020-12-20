@@ -1,5 +1,5 @@
 # ScratchCat458 DownloadUtil
-Simple file downloading utility written in Java.
+Simple file downloading utility written in Java. Used in Speelin.
 
 ## Prerequisites
 - DownloadUtil .jar
