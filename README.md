@@ -13,12 +13,14 @@ Simple file downloading utility written in Java.
 ```
 import com.scratchcat458.util.DownloadUtil;
 
-public static void main(String[] args) {
-    DownloadUtil d = new DownloadUtil();
+public class Main {
+    public static void main(String[] args) {
+        DownloadUtil d = new DownloadUtil();
 
-    d.download("YOUR_FILE_URL", "YOUR_FILE_NAME.with_file_extension");
-    // OR
-    d.downloadFromConsoleInput();
+        d.download("YOUR_FILE_URL", "YOUR_FILE_NAME.with_file_extension");
+        // OR
+        d.downloadFromConsoleInput();
+    }
 }
 ```
 5. Navigate to the *_output* in src to check if the file has been downloaded
